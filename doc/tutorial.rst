@@ -152,7 +152,7 @@ different filters too (currently `SHUFFLE` and `BITSHUFLE`). These allow the
 integrated compressors to compress more efficiently or not, depending on
 your datasets.
 
-Here it is an example using the `SHUFFLE` filter::
+Here is an example using the `SHUFFLE` filter::
 
   >>> %time bpacked = blosc.compress(bytes_array, shuffle=blosc.SHUFFLE)
   CPU times: user 112 ms, sys: 4 ms, total: 116 ms
